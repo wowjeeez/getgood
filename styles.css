@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9AA0A8;
+}
+
+.upper {
+    text-align: center;
+    color: #72705B;
+}
+
+.clown {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 {
+    margin-top: 20%;
+    text-align: center;
+}
