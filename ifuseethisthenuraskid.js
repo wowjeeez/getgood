@@ -10,8 +10,9 @@ ready(() => {
     const shouldDestroy = urlSearchParams.get("destroy") == "1"
     const destroy = document.getElementById("dumbfuck")
     const google = document.getElementById("usegoogle")
-    const usingDarkReader = document.getElementsByClassName("data-darkreader-mode")[0]
-    if (usingDarkReader) {
+    const htmlElement = document.getElementsByTagName("html")[0];
+    console.log(htmlElement.getAttribute("data-darkreader-scheme"))
+    if (htmlElement.getAttribute("data-darkreader-scheme")) {
         alert("Hey turn off your dark reader!")
     }
 
